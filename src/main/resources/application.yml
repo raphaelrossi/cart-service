@@ -1,0 +1,11 @@
+product:
+  provider:
+    uri: "https://product-service-wipro.cfapps.io"
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
